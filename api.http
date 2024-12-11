@@ -1,0 +1,23 @@
+POST http://localhost:3000/assets
+Content-Type: application/json
+
+{
+    "symbol": "USD",
+    "asset_id": "5544332211"
+}
+
+###
+GET http://localhost:3000/assets
+
+
+###
+POST http://localhost:3000/orders
+Content-Type: application/json
+
+{
+    "price": 200,
+    "asset_id": "14638d2c-c918-47cc-b6d4-79d90f64e915"
+}
+
+###
+GET http://localhost:3000/orders
